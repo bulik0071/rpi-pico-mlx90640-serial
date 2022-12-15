@@ -13,9 +13,9 @@ while True:
     except ValueError:
         # these happen, no biggie - retry
         continue
-    #for h in range(24):
-    #    for w in range(32):
-    #        t = frame[h*32 + w]
-    #        print("%0.1f, " % t, end="")
-    #    print()
+    for h in range(24):
+        for w in range(32):
+            t = frame[h*32 + w]
+            print("%0.1f, " % t, end="")
+        print()
     print()
